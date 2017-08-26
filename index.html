@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iran Reyes</title>
+    <style>
+        body {
+            background-color: #2b2323;
+            font-family: monospace;
+            text-align: center;
+            color: #b4b4b4;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #f1f0f0;
+        }
+
+        h2 {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        a { 
+            color: #8295bb;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 15px 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 95vh;
+        }
+
+        header {
+            color: #b7b7b7;
+        }
+
+        header .photo img {
+            border-radius: 100%;
+        }
+
+        header .basic-info .current-role {
+            font-size: 20px;
+        }
+
+        .contact {
+            margin-top: 0;
+        }
+
+        .contact h2 {
+            display: none;
+        }
+
+        .socials {
+            margin: 15px 0;
+        }
+
+        .tags .tag {
+            padding: 6px 10px;
+            background-color: #312727;
+            font-size: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .portfolio .companies img {
+            margin: 10px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <main role="main" class="container">
+        <header>
+                <div class="photo">
+                        <img src="photo.png" alt="Iran Reyes" width="139" height="142">
+                </div>
+                <div class="basic-info">
+                    <h1>Iran Reyes</h1>
+                    <p class="current-role">Senior Developer</p>
+                </div>
+        </header>
+        <section class="contact">
+            <h2 aria-hidden="true">Contact</h2>
+            <div>Email: <a href="mailto:contact@iranreyes.com">contact@iranreyes.com</a></div>
+            <div>Twitter: <a href="https://twitter.com/iranfleitas" target="_blank" rel="noopener">@rfleitas</a></div>
+            <div>Github: <a href="https://github.com/iranreyes" target="_blank" rel="noopener">@iranreyes</a></div>
+        </section>
+        <section class="tags">
+            <h2>Experience</h2>
+            <span class="tag">frontend</span>
+            <span class="tag">backend</span>
+            <span class="tag">UI / UX</span>
+            <span class="tag">performance</span>
+            <span class="tag">algorithm</span>
+            <span class="tag">infrastructure</span>
+            <span class="tag">deployment</span>
+            <span class="tag">management</span>
+            <span class="tag">agile</span>
+        </section>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="companies">
+                <img src="fb.png" alt="Facebook">
+                <img src="oculus.png" alt="Oculus">
+                <img src="me.png" alt="Messenger">
+                <img src="ig.png" alt="Instagram">
+                <img src="xceligent.png" alt="Xceligent">
+                <img src="history.png" alt="History">
+                <img src="google.png" alt="Google">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
