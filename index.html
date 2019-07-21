@@ -1,149 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Iran Reyes</title>
-    <meta name="description" content="Iran Reyes is senior developer at Jam3 with experience in frontend, backend, UI/UX, performance, algorithms, deployment, management, infrastructure, agile and many other.">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="Iran Reyes">
-    <meta property="og:description" content="Iran Reyes is senior developer at Jam3 with experience in frontend, backend, UI/UX, performance, algorithms, deployment, management, infrastructure, agile and many other.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://iranreyes.com/">
-    <meta property="og:site_name" content="Iran Reyes">
-    <meta property="og:image:width" content="250">
-    <meta property="og:image:height" content="250">
-    <meta property="og:image" content="http://iranreyes.com/assets/images/profile.png">
-    <meta name="twitter:card" content="summary">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon/manifest.json">
-    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#f0db4f">
-    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-    <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <meta
+      name="description"
+      content="Iran Reyes is a Senior Technical Architect at Jam3 with experience in frontend, backend, UI/UX, performance, algorithms, deployment, management, infrastructure, agile and many other."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Iran Reyes" />
+    <meta
+      property="og:description"
+      content="Iran Reyes is a Senior Technical Architect at Jam3 with experience in frontend, backend, UI/UX, performance, algorithms, deployment, management, infrastructure, agile and many other."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iranreyes.com/" />
+    <meta property="og:site_name" content="Iran Reyes" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="250" />
+    <meta
+      property="og:image"
+      content="https://iranreyes.com/assets/images/profile.png"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/images/favicon/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/images/favicon/safari-pinned-tab.svg"
+      color="#f0db4f"
+    />
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" />
+    <meta
+      name="msapplication-config"
+      content="/assets/images/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <style>
-        body {
-            background-color: #2b2323;
-            font-family: monospace;
-            text-align: center;
-            color: #b4b4b4;
-        }
+      body {
+        background-color: #2b2323;
+        font-family: monospace;
+        text-align: center;
+        color: #b4b4b4;
+      }
 
-        h1 {
-            font-size: 30px;
-            color: #f1f0f0;
-        }
+      h1 {
+        font-size: 30px;
+        color: #f1f0f0;
+      }
 
-        h2 {
-            font-size: 15px;
-            margin: 10px 0;
-        }
+      h2 {
+        font-size: 15px;
+        margin: 10px 0;
+      }
 
-        a {
-            color: #8295bb;
-            text-decoration: none;
-        }
+      a {
+        color: #8295bb;
+        text-decoration: none;
+      }
 
-        section {
-            margin: 15px 0;
-        }
+      section {
+        margin: 15px 0;
+      }
 
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 95vh;
-        }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 95vh;
+      }
 
-        header {
-            color: #b7b7b7;
-        }
+      header {
+        color: #b7b7b7;
+      }
 
-        header .photo img {
-            border-radius: 100%;
-        }
+      header .photo img {
+        border-radius: 100%;
+      }
 
-        header .basic-info .current-role {
-            font-size: 20px;
-        }
+      header .basic-info .current-role {
+        font-size: 20px;
+      }
 
-        .contact {
-            margin-top: 0;
-        }
+      .contact {
+        margin-top: 0;
+      }
 
-        .contact h2 {
-            display: none;
-        }
+      .contact h2 {
+        display: none;
+      }
 
-        .socials {
-            margin: 15px 0;
-        }
+      .socials {
+        margin: 15px 0;
+      }
 
-        .tags .tag {
-            padding: 6px 10px;
-            background-color: #312727;
-            font-size: 10px;
-            border-radius: 10px;
-            display: inline-block;
-            margin: 5px 0;
-        }
+      .tags .tag {
+        padding: 6px 10px;
+        background-color: #312727;
+        font-size: 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 5px 0;
+      }
 
-        .portfolio .companies img {
-            margin: 10px;
-            height: 25px;
-        }
+      .portfolio .companies img {
+        margin: 10px;
+        height: 25px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <main class="container">
-        <header>
-            <div class="photo">
-                <img src="assets/images/profile.png" alt="Iran Reyes" width="139" height="142">
-            </div>
-            <div class="basic-info">
-                <h1>Iran Reyes</h1>
-                <p class="current-role">Senior Developer</p>
-            </div>
-        </header>
-        <section class="contact">
-            <h2 aria-hidden="true">Contact</h2>
-            <div>Email: <a href="mailto:contact@iranreyes.com">contact@iranreyes.com</a></div>
-            <div>Twitter: <a href="https://twitter.com/iranfleitas" target="_blank" rel="noopener">@rfleitas</a></div>
-            <div>Github: <a href="https://github.com/iranreyes" target="_blank" rel="noopener">@iranreyes</a></div>
-        </section>
-        <section class="tags">
-            <h2>Experience</h2>
-            <span class="tag">frontend</span>
-            <span class="tag">backend</span>
-            <span class="tag">UI / UX</span>
-            <span class="tag">performance</span>
-            <span class="tag">algorithm</span>
-            <span class="tag">infrastructure</span>
-            <span class="tag">deployment</span>
-            <span class="tag">management</span>
-            <span class="tag">agile</span>
-        </section>
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-            <div class="companies">
-                <img src="assets/images/fb.png" alt="Facebook">
-                <img src="assets/images/oculus.png" alt="Oculus">
-                <img src="assets/images/me.png" alt="Messenger">
-                <img src="assets/images/ig.png" alt="Instagram">
-                <img src="assets/images/xceligent.png" alt="Xceligent">
-                <img src="assets/images/history.png" alt="History">
-                <img src="assets/images/google.png" alt="Google">
-            </div>
-        </section>
+      <header>
+        <div class="photo">
+          <img
+            src="assets/images/profile.png"
+            alt="Iran Reyes"
+            width="139"
+            height="142"
+          />
+        </div>
+        <div class="basic-info">
+          <h1>Iran Reyes</h1>
+          <p class="current-role">Senior Technical Architect</p>
+        </div>
+      </header>
+      <section class="contact">
+        <h2 aria-hidden="true">Contact</h2>
+        <div>
+          Email:
+          <a href="mailto:iran.reyes@jam3.com">iran.reyes@jam3.com</a>
+        </div>
+        <div>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/iran-reyes-fleitas"
+            target="_blank"
+            rel="noopener"
+            >@iranreyesfleitas</a
+          >
+        </div>
+        <div>
+          Twitter:
+          <a
+            href="https://twitter.com/iranfleitas"
+            target="_blank"
+            rel="noopener"
+            >@rfleitas</a
+          >
+        </div>
+        <div>
+          Github:
+          <a href="https://github.com/iranreyes" target="_blank" rel="noopener"
+            >@iranreyes</a
+          >
+        </div>
+      </section>
+      <section class="tags">
+        <h2>Key Experience</h2>
+        <span class="tag">frontend</span>
+        <span class="tag">backend</span>
+        <span class="tag">UI / UX</span>
+        <span class="tag">performance</span>
+        <span class="tag">algorithm</span>
+        <span class="tag">infrastructure</span>
+        <span class="tag">deployment</span>
+        <span class="tag">management</span>
+        <span class="tag">agile</span>
+      </section>
+      <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="companies">
+          <img src="assets/images/fb.png" alt="Facebook" />
+          <img src="assets/images/oculus.png" alt="Oculus" />
+          <img src="assets/images/me.png" alt="Messenger" />
+          <img src="assets/images/ig.png" alt="Instagram" />
+          <img src="assets/images/xceligent.png" alt="Xceligent" />
+          <img src="assets/images/history.png" alt="History" />
+          <img src="assets/images/google.png" alt="Google" />
+          <img src="assets/images/ebay.png" alt="Ebay" />
+          <img src="assets/images/disney.png" alt="Disney" />
+          <img src="assets/images/twitter.png" alt="Twitter" />
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
